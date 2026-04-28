@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 public abstract class AbstractFileProcessor<T> {
     private static final Logger logger = Logger.getLogger(AbstractFileProcessor.class.getName());
 

@@ -22,7 +22,6 @@ public class Appointment {
         return status;
     }
 
-
     public Appointment(String id, Exception.Doctor doctor, Exception.Patient patient, Exception.TimeSlot slot) {
         this.id = id;
         this.doctor = doctor;
