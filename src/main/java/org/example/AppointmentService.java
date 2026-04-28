@@ -23,6 +23,7 @@ public class AppointmentService {
             validateDoctorAvailability(doctor, slot);
             validatePatientAvailability(patient, slot);
 
+
             Appointment appointment = new Appointment(id, doctor, patient, slot);
             appointmentRepository.save(appointment);
             logger.info("Appointment booked successfully: " + id);
